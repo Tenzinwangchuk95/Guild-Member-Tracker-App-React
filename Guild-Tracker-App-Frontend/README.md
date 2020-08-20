@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 This is that will track members of a fantasy guild. Members can be deleted and be tracked when out on missions.
 
 ## Installing 
-Within guild-member-backend-api, perform the following:
+Within Guild-Tracker-App-Backend, perform the following:
 
 Install gems.
 
@@ -20,11 +20,11 @@ Run migrations and seed data.
 
 ## Start servers by cding into the directory:
 
-guild-member-backend-api
+Guild-Tracker-App-Backend
 
 ```rails s```
 
-guild-member-tracker
+Guild-Tracker-App-Frontend
 
 ```npm start```
 
