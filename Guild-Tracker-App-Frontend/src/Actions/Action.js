@@ -3,8 +3,7 @@ export const fetchMembers = () => {
       return fetch('http://localhost:3001/members')
       .then(resp => resp.json())
       .then(members => {
-          debugger
-        dispatch({ type: "SET_MEMBERS", payload: members })
+      dispatch({ type: "SET_MEMBERS", payload: members })
       })
     }
   }

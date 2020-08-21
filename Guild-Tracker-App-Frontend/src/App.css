@@ -47,10 +47,13 @@
 
 
 .member-card{
-  opacity: 1;
   padding: 2px;
   margin: 5px;
   border: 1px solid grey;
   color: black;
   background-color: gold
+}
+
+.form{
+  text-align: center;
 }

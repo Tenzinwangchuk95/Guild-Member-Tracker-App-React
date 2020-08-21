@@ -29,7 +29,7 @@ export class NewMemberForm extends React.Component{
 
     render(){
         return(
-            <form onSubmit= {this.handleSubmit}>
+            <form className="form" onSubmit= {this.handleSubmit}>
                 <h2>Name:</h2>
                 <input
                     type="text"
@@ -181,7 +181,7 @@ export class NewMemberForm extends React.Component{
                         onChange= {this.handleChange}
                     />    
                 </lable>
-            
+                <br/>
                 <input type="submit" value="Create Member" className="btn" />
                 
             </form>

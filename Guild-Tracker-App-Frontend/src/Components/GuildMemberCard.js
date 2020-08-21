@@ -2,9 +2,13 @@ import React from 'react'
 import { connect } from 'react-redux'
 import { removeMember } from '../Actions/Action'
 
+const style = {
+    opacity: "1"
+}
+
 const GuildMemberCard = ({ member, removeMember}) => {
     return(
-        <div id= {member.id} className="member-card">
+        <div id= {member.id} style={style} className="member-card">
             <h1>Name:{member.name}</h1>
             <h3>Class:{member.klass}</h3>
             <h3>Race:{member.race}</h3>
