@@ -1,6 +1,7 @@
 import React from 'react'
 import { connect } from 'react-redux'
 import { removeMember } from '../Actions/Action'
+import Like from '../Containers/Like'
 
 const style = {
     opacity: "1"
@@ -16,9 +17,12 @@ const GuildMemberCard = ({ member, removeMember}) => {
             <h3>Rank:{member.rank}</h3>
             <button onClick={()=>removeMember(member.id)}>Remove from guild</button>
             <button onClick={()=>changeCard(member.id)} >Send out on Quest</button>
+            <Like/>
         </div>
     )
 } 
+
+
 
 const changeCard = (id) => {
     if (document.getElementById(id).style.opacity === '1' ){
